@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+* span {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scrollbar-width: 8px;
+    scrollbar-color: #4F27BF transparent;
+    border-radius: 5px;
+}

@@ -1,0 +1,41 @@
+.main_menu {
+  display: none;
+  @media screen and (min-width: 769px) {
+    display: flex;
+  }
+  scrollbar-width: 8px;
+  scrollbar-color: #4F27BF transparent;
+  border-radius: 5px;
+  flex-direction: column;
+  position: fixed;
+  width: 300px;
+  max-width: 300px;
+  height: calc(100vh - 80px);
+  background: rgba(255, 255, 255, 0.05);;
+  overflow: auto;
+  top: 80px;
+  z-index: 2;
+  box-shadow: 0px 0px 5px rgba(2, 0, 96, 0.25);
+  gap: 32px;
+  .menuPart {
+    &[id="first"] {
+      margin-top: 25px;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16px;
+    padding-left: 32px;
+    box-sizing: border-box;
+    padding-right: auto;
+    align-items: center;
+    max-width: 300px;
+    .label {
+      white-space: wrap;
+    }
+    &.secondLevel {
+      padding-left: 80px;
+    }
+  }
+}
+

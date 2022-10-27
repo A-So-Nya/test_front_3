@@ -1,0 +1,19 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 32px;
+    span {
+        display: block;
+    }
+    .title {
+        margin-bottom: 16px;
+    }
+    .news_title {
+        margin-bottom: 24px;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+}

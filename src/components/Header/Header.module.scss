@@ -1,0 +1,27 @@
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4F27BF;
+  height: 80px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+  .header_part {
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    .icon_profile {
+      margin-right: 16px;
+    }
+    .icon_logo {
+      margin-right: 24px;
+    }
+  }
+}
+
+
+

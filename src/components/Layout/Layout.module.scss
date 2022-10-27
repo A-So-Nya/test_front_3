@@ -1,0 +1,24 @@
+.main_layout {
+  display: flex;
+  flex-direction: column;
+  min-block-size: 100vh;
+  max-inline-size: 100vw;
+  background-color: #fff;
+  height: 100%;
+
+  .menu_and_content {
+    display: flex;
+
+    .content {
+      width: 100%;
+      height: calc(100% - 80px);
+      margin-top: 80px;
+      margin-left: 0px;
+      position: relative;
+      @media screen and (min-width: 769px) {
+        margin-left: 300px;
+      }
+    }
+  }
+}
+

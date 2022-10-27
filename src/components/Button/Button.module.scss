@@ -1,0 +1,14 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background: transparent;
+  width: max-content;
+  height: max-content;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+}
+
